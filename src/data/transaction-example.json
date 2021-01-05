@@ -1,0 +1,38 @@
+{
+  "address": "string",
+  "updated_at": "1970-01-01T00:00:00.000Z",
+  "next_update_at": "1970-01-01T00:00:00.000Z",
+  "quote_currency": "string",
+  "chain_id": 0,
+  "items": [
+    {
+      "block_signed_at": "1970-01-01T00:00:00.000Z",
+      "tx_hash": "string",
+      "tx_offset": 0,
+      "successful": false,
+      "from_address": "string",
+      "from_address_label": "string",
+      "to_address": "string",
+      "to_address_label": "string",
+      "value": 0.5,
+      "value_quote": 0.5,
+      "gas_offered": 0,
+      "gas_spent": 0,
+      "gas_price": 0,
+      "gas_quote": 0.5,
+      "gas_quote_rate": 0.5,
+      "log_events": [
+        {
+          "block_signed_at": "1970-01-01T00:00:00.000Z",
+          "block_height": 0,
+          "tx_offset": 0,
+          "log_offset": 0,
+          "tx_hash": "string",
+          "raw_log_topics": [
+            "string"
+          ]
+        }
+      ]
+    }
+  ]
+}
