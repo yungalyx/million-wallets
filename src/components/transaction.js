@@ -16,7 +16,9 @@ export default function Transaction(props){
             <td>{props.item.from_address} </td>
             <td> {">"} </td>
             <td>{props.item.to_address} </td>
-            <Td credit={credit}>{"$" + props.item.value_quote.toFixed(2) + "USD"}</Td>
+            <Td credit={credit}>{props.item.value_quote!=null ? 
+            "$" + props.item.value_quote.toFixed(2) + " USD" : 
+            "$0.00 USD"}</Td>
         </tr>
     )
 }
