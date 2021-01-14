@@ -19,7 +19,7 @@ export default function Balance(props){
             <td style={{marginRight: '15px'}}> {"$"+ props.item.quote.toFixed(2) + ' USD'}</td>
             <td>  
                 {!divBy0 && (props.item.quote / props.item.quote_rate).toFixed(4)+ " " + props.item.contract_ticker_symbol}
-                {divBy0 && "0"}     
+                {divBy0 && ("0 " + props.item.contract_ticker_symbol)}     
             </td>
             <td> {"$"+props.item.quote_rate.toFixed(2)+" USD"}  </td>
         </tr>              
