@@ -25,7 +25,7 @@ export default function Transaction(props){
             setCredit(false)
         }
         // console.log(process.env.REACT_APP_COVALENT_KEY)
-    }, [props.item.currAddress, props.item.to_address]);
+    }, [props.currAddress, props.item.to_address]);
 
  
 
